@@ -1,0 +1,11 @@
+int main(){
+	float c,f,c1,f1;
+	printf("Enter temperature in degree farenheit: ");
+	scanf("%f",&f1);
+	c1=((f1-32)*5)/9;
+  printf("Temperature in celcius = %f\n", c1);
+  scanf("%f",&c);
+	f=((9/5)*c)+32;
+	printf("temperature in farenheit=%f",f);
+	return 0;
+}
